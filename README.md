@@ -1,7 +1,7 @@
 # ebsd_denoising_autoencoder
 ![image](https://user-images.githubusercontent.com/79323764/184698864-61dd203a-7e19-499c-bd1e-b00d3b62351a.png)
 
-This model takes input Kikuchi patterns of poor quality, and using weights trained on idealized Monte Carlo simulated patterns from EMSoft, and improves their image quality and band/peak contrast which leads to improved EBSD indexing and absolute strain determination. A copy of a paper demonstrating its use and its implications can be found via the following arxiv/DOI link: . If you're short on time or cannot access the paper, essentially this model takes Kikuchi patterns of low contrast and poor band definition, and improves them via an autoencoder trained on patterns with perfect contrast and band definition, thus adaptively improving the contrast and signal noise present in Kikuchi/EBSD diffraction patterns.
+This model takes input Kikuchi patterns of poor quality, and using weights trained on idealized Monte Carlo simulated patterns from EMSoft, and improves their image quality and band/peak contrast which leads to improved EBSD indexing and absolute strain determination. A copy of a paper demonstrating its use and its implications can be found via the following arxiv/DOI link: https://doi.org/10.1016/j.ultramic.2023.113810. If you're short on time or cannot access the paper, essentially this model takes Kikuchi patterns of low contrast and poor band definition, and improves them via an autoencoder trained on patterns with perfect contrast and band definition, thus adaptively improving the contrast and signal noise present in Kikuchi/EBSD diffraction patterns.
 
 ![image](https://user-images.githubusercontent.com/79323764/184698996-f8e7c3f0-5887-4439-b2f8-8f87194582c2.png)
 
